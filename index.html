@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon site</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;600;700&display=swap">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>
+        <a href="#">Mon Site</a>
+        <nav>
+        <ul>
+            <li><a href="#top">Accueil</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#works">Réalisations</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <h1>Bienvenue sur Mon Site</h1>
+            <p>Le site le plus joli du monde</p>
+            <ul>
+                <li><a href="#services" class="btn">Mes services</a></li>
+                <li><a href="#works" class="btn">Mes réalisations</a></li>
+            </ul>
+        </section>
+        <section id="services">
+            <h2>Mes Services</h2>
+            <div class="articles-container">
+            <article>
+                <a href="#"><img src="./images/Blue_Computer.webp" width="200" height="auto" alt="image bleue"></a>
+                <h3>Service 1</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum vitae accusamus dolores. Ut tenetur, blanditiis velit voluptate ipsam dolorum quia inventore earum necessitatibus sed, esse quaerat sapiente quasi, modi quidem?</p>
+                <a href="#" class="btn">Voir plus</a>
+            </article>
+            <article>
+                <a href="#"><img src="./images/File_Yellow.webp" width="200" height="auto" alt="image jaune"></a>
+                <h3>Service 2</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum vitae accusamus dolores. Ut tenetur, blanditiis velit voluptate ipsam dolorum quia inventore earum necessitatibus sed, esse quaerat sapiente quasi, modi quidem?</p>
+                <a href="#" class="btn">Voir plus</a>
+            </article>
+            <article>
+                <a href="#"><img src="./images/Green_Texture.webp" width="200" height="auto" alt="image verte"></a>
+                <h3>Service 3</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum vitae accusamus dolores. Ut tenetur, blanditiis velit voluptate ipsam dolorum quia inventore earum necessitatibus sed, esse quaerat sapiente quasi, modi quidem?</p>
+                <a href="#" class="btn">Voir plus</a>
+            </article>
+            <article>
+                <a href="#"><img src="./images/Grey_Icons.webp" width="200"  height="auto"alt="image grise"></a>
+                <h3>Service 4</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum vitae accusamus dolores. Ut tenetur, blanditiis velit voluptate ipsam dolorum quia inventore earum necessitatibus sed, esse quaerat sapiente quasi, modi quidem?</p>
+                <a href="#" class="btn">Voir plus</a>
+            </article>
+        </div>
+        </section>
+        <section id="works">
+            <h2>Mes Réalisations</h2>
+            <div class="articles-container">
+            <article>
+                <a href="#"><img src="./images/Blue_Computer.webp" width="200" height="auto" alt="image bleue"></a>
+                <h3>Réalisation 1</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum vitae accusamus dolores. Ut tenetur, blanditiis velit voluptate ipsam dolorum quia inventore earum necessitatibus sed, esse quaerat sapiente quasi, modi quidem?</p>
+                <a href="#" class="btn">Voir plus</a>
+            </article>
+            <article>
+                <a href="#"><img src="./images/File_Yellow.webp" width="200" height="auto" alt="image jaune"></a>
+                <h3>Réalisation 2</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum vitae accusamus dolores. Ut tenetur, blanditiis velit voluptate ipsam dolorum quia inventore earum necessitatibus sed, esse quaerat sapiente quasi, modi quidem?</p>
+                <a href="#" class="btn">Voir plus</a>
+            </article>
+            <article>
+                <a href="#"><img src="./images/Green_Texture.webp" width="200" height="auto" alt="image verte"></a>
+                <h3>Réalisation 3</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum vitae accusamus dolores. Ut tenetur, blanditiis velit voluptate ipsam dolorum quia inventore earum necessitatibus sed, esse quaerat sapiente quasi, modi quidem?</p>
+                <a href="#" class="btn">Voir plus</a>
+            </article>
+            <article>
+                <a href="#"><img src="./images/Grey_Icons.webp" width="200"  height="auto"alt="image grise"></a>
+                <h3>Réalisation 4</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum vitae accusamus dolores. Ut tenetur, blanditiis velit voluptate ipsam dolorum quia inventore earum necessitatibus sed, esse quaerat sapiente quasi, modi quidem?</p>
+                <a href="#" class="btn">Voir plus</a>
+            </article>
+            </div>
+        </section>
+        <section id="contact">
+            <h2>Me contacter</h2>
+            <form action="#">
+                <fieldset>
+                    <div>
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" placeholder="exemple@demo.fr" required>
+                    </div>
+                    <div>
+                        <label for="subject">Sujet</label>
+                        <select name="subject" id="subject" required>
+                            <option value="" selected>-- Choisissez un objet --</option>
+                            <option value="1">Sujet 1</option>
+                            <option value="2">Sujet 2</option>
+                        </select>
+                    </div>  
+                    <div>
+                        <label for="message">Message</label>
+                        <textarea name="message" id="message"></textarea>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="rgpd" id="rgpd" required>
+                        <label for="rgpd">J'accepte la collecte de mes données personnelles...</label>
+                    </div>
+                    <p>Tous les champs sont obligatoires</p>
+                    <button type="submit" class="btn" aria-label="Envoyer le formulaire">Envoyer</button>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+    <footer>
+       <ul>
+        <li><a href="#top">Mon site</a></li>
+        <li><a href="#" rel="nofollow">Mentions Légales</a></li>
+       </ul> 
+    </footer>
+    
+</body>
+</html>
